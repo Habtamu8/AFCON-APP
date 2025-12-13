@@ -1,4 +1,3 @@
-import 'package:afcon_app/core/constants/device_utilites.dart';
 import 'package:flutter/material.dart';
 
 
@@ -38,5 +37,5 @@ class CustomAppbar extends StatelessWidget  implements PreferredSizeWidget{
   }
   
   @override
-  Size get preferredSize => Size.fromHeight(AFCONDeviceUtility.getAppBarHeight());
+  Size get preferredSize => Size.fromHeight(30);
 }
