@@ -36,7 +36,9 @@ class MatchCard extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.all(18),
         child: Column(
+
           children: [
+             Text("Group Stage Games"),
             // Teams Row
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,

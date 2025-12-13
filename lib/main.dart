@@ -1,5 +1,4 @@
-
-import 'package:afcon_app/features/hompage/home_screen.dart';
+import 'package:afcon_app/features/Login/login_screen.dart';
 import 'package:flutter/material.dart';
 
 
@@ -10,13 +9,15 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      color: Colors.white,
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      title: 'AFCON App',
+      theme: ThemeData(
+        primarySwatch: Colors.green,
+      ),
+      home: const LoginScreen(),
     );
   }
 }
