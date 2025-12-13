@@ -41,6 +41,9 @@ class _LoginScreenState extends State<LoginScreen> {
           padding: const EdgeInsets.all(24),
           child: Column(
             children: [
+               Image(
+          height: 150,
+          image: AssetImage("assets/images/AFCON logo.png")), 
               // Logo / Title
               const Text(
                 "AFCON ",

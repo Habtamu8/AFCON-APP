@@ -14,7 +14,7 @@ class LoginHeader extends StatelessWidget {
       children: [
         Image(
           height: 150,
-          image: AssetImage("")),
+          image: AssetImage("assets/images/AFCON logo.png")),
         Text("AFCON",style: Theme.of(context).textTheme.headlineMedium),
           const SizedBox(height:12),
         Text("Noc Edition",style: Theme.of(context).textTheme.titleMedium,)
