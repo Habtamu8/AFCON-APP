@@ -1,5 +1,5 @@
 
-import 'package:afcon_app/features/hompage/homepage_screen.dart';
+import 'package:afcon_app/features/hompage/home_screen.dart';
 import 'package:flutter/material.dart';
 
 
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       color: Colors.white,
       debugShowCheckedModeBanner: false,
-      home: HomepageScreen(),
+      home: HomeScreen(),
     );
   }
 }
