@@ -30,7 +30,7 @@ class DrawerScreen extends StatelessWidget {
                   bottom: -40,
                   left: 0,
                   child: Image(
-                    image: AssetImage("assets/images/AFCON logo.png"),
+                    image: AssetImage("assets/images/Afcon logo.jpg"),
                   ),
                 ),
                
@@ -74,7 +74,7 @@ class DrawerScreen extends StatelessWidget {
                     );
                   },
                 ),
-                SizedBox(height: 300),
+                SizedBox(height: 340),
                  Column(       
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: const [

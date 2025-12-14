@@ -43,7 +43,7 @@ class _LoginScreenState extends State<LoginScreen> {
             children: [
                Image(
           height: 150,
-          image: AssetImage("assets/images/AFCON logo.png")), 
+          image: AssetImage("assets/images/Afcon logo.jpg")), 
               // Logo / Title
               const Text(
                 "AFCON ",
