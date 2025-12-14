@@ -1,4 +1,3 @@
-import 'package:afcon_app/features/hompage/home_screen.dart';
 import 'package:afcon_app/features/profile/profile.dart';
 import 'package:afcon_app/features/scoreboard/leaderboard_screen.dart';
 import 'package:afcon_app/widgets/list_tile.dart';
@@ -46,10 +45,10 @@ class DrawerScreen extends StatelessWidget {
                   icon: Icons.home,
                   ontap: () {
                     Navigator.pop(context); // close drawer
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (_) => HomeScreen()),
-                    );
+                    // Navigator.push(
+                    //   context,
+                    //   MaterialPageRoute(builder: (_) => HomeScreen()),
+                    // );
                   },
                 ),
                 ListTileFormat(
