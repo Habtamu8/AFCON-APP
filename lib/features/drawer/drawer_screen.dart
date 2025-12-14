@@ -74,7 +74,30 @@ class DrawerScreen extends StatelessWidget {
                     );
                   },
                 ),
+                SizedBox(height: 300),
+                 Column(       
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: const [
+                      Text(
+                        "Developed By",
+                        style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 14,
+                        ),
+                      ),
+                      Text(
+                        "NOC Engineer",
+                        style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 12,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ],
+                    // Rank
+                  ),
               ],
+              
             ),
           ),
         ],

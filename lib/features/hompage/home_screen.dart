@@ -41,7 +41,7 @@ class HomeScreen extends StatelessWidget {
         ),
         action: [
           IconButton(
-            icon: const Icon(Icons.logout),
+            icon: const Icon(Icons.logout , color: Colors.white,),
             onPressed: () {
               Navigator.pushAndRemoveUntil(
                 context,
