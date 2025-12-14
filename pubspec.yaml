@@ -37,7 +37,7 @@ flutter:
     - assets/images/egypt flag.jpeg
     - assets/images/senegal.jpg
     - assets/images/nigeria flag.png
-    - assets/images/Afcon logo.jpg
+    - assets/images/Afcon_logo.jpg
 
 
   # fonts:
@@ -52,17 +52,18 @@ flutter:
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
 
-flutter_icons:
+flutter_launcher_icons:
   android: true
   ios: true
-  image_path: assets/images/AFCON logo.png
+  image_path: "assets/images/Afcon_logo.jpg"
+
 
 flutter_native_splash:
   color: "#FFFFFF"   # background color (AFCON dark blue for example)
-  image: assets/images/Afcon logo.jpg
+  image: assets/images/Afcon_logo.jpg
 
   android_12:
-    image: assets/images/Afcon logo.jpg
+    image: assets/images/Afcon_logo.jpg
     color: "#FFFFFF"
 
  

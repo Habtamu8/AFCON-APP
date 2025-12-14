@@ -30,7 +30,7 @@ class DrawerScreen extends StatelessWidget {
                   bottom: -40,
                   left: 0,
                   child: Image(
-                    image: AssetImage("assets/images/Afcon logo.jpg"),
+                    image: AssetImage("assets/images/Afcon_logo.jpg"),
                   ),
                 ),
                
