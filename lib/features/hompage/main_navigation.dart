@@ -1,3 +1,4 @@
+import 'package:afcon_app/features/Match/Match_screen.dart';
 import 'package:afcon_app/features/profile/profile.dart';
 import 'package:afcon_app/features/scoreboard/leaderboard_screen.dart';
 import 'package:flutter/material.dart';
@@ -16,6 +17,7 @@ class _MainNavigationState extends State<MainNavigation> {
 
   final List<Widget> _screens = [
     HomeScreen(),
+    MatchScreen(),
     LeaderboardScreen(),
     ProfileScreen(),
   ];
@@ -40,6 +42,10 @@ class _MainNavigationState extends State<MainNavigation> {
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
             label: "Home",
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.sports_soccer),
+            label: "Match",
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.leaderboard),
